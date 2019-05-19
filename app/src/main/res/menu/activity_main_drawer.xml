@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage_books"
+            android:title="@string/manage_books" />
+        <item
+            android:id="@+id/nav_search_online"
+            android:title="@string/search_online" />
+        <item
+            android:id="@+id/nav_insert_book"
+            android:title="Insert book manually" />
+        <item
+            android:id="@+id/nav_manage_libraries"
+            android:title="Manage libraries" />
+    </group>
+
+    <item android:title="logout">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="logout" />
+        </menu>
+    </item>
+
+</menu>

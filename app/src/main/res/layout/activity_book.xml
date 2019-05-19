@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8pt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBookCover"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                tools:layout_conversion_absoluteX="112dp"
+                tools:layout_conversion_absoluteY="8dp"
+                tools:layout_conversion_absoluteWidth="160dp"
+                tools:layout_conversion_absoluteHeight="160dp" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                tools:layout_conversion_absoluteX="182dp"
+                tools:layout_conversion_absoluteY="329dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="38dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTitle"
+                android:inputType="text"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="367dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <TextView
+                android:id="@+id/tvAuthors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="@string/authors"
+                tools:layout_conversion_absoluteX="192dp"
+                tools:layout_conversion_absoluteY="417dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteHeight="26dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editAuthors"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="443dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publisher"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="152dp"
+                tools:layout_conversion_absoluteY="494dp"
+                tools:layout_conversion_absoluteWidth="79dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPublisher"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="510dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <TextView
+                android:id="@+id/tvPublishedDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="192dp"
+                tools:layout_conversion_absoluteY="553dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/published_date"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="145dp"
+                tools:layout_conversion_absoluteY="577dp"
+                tools:layout_conversion_absoluteWidth="93dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editPublishedDate"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="594dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="162dp"
+                tools:layout_conversion_absoluteY="644dp"
+                tools:layout_conversion_absoluteWidth="60dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editLanguage"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="661dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/categories"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="158dp"
+                tools:layout_conversion_absoluteY="711dp"
+                tools:layout_conversion_absoluteWidth="67dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editCategories"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="728dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/isbn10"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="158dp"
+                tools:layout_conversion_absoluteY="711dp"
+                tools:layout_conversion_absoluteWidth="67dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editIsbn10"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="728dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/isbn13"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="158dp"
+                tools:layout_conversion_absoluteY="711dp"
+                tools:layout_conversion_absoluteWidth="67dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editIsbn13"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="728dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnDeleteBook"
+                android:text="@string/delete_book"
+                tools:layout_conversion_absoluteY="770dp"
+                tools:layout_conversion_absoluteWidth="113dp"
+                tools:layout_conversion_absoluteHeight="48dp" />
+
+
+            <View
+                android:background="@android:color/darker_gray"
+                android:layout_width="280dp"
+                android:layout_height="1px"
+                tools:layout_conversion_absoluteX="52dp"
+                tools:layout_conversion_absoluteY="826dp"
+                tools:layout_conversion_absoluteWidth="280dp"
+                tools:layout_conversion_absoluteHeight="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/library"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="170dp"
+                tools:layout_conversion_absoluteY="835dp"
+                tools:layout_conversion_absoluteWidth="42dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spLibrary"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="851dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_conversion_absoluteHeight="24dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnShowAddLibrary"
+                android:text="@string/add_library"
+                tools:layout_conversion_absoluteX="137dp"
+                tools:layout_conversion_absoluteY="875dp"
+                tools:layout_conversion_absoluteWidth="110dp"
+                tools:layout_conversion_absoluteHeight="48dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutAddLibrary"
+                android:orientation="vertical"
+                android:layout_margin="8pt"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/insert_library"
+                    tools:layout_conversion_absoluteX="143dp"
+                    tools:layout_conversion_absoluteY="923dp"
+                    tools:layout_conversion_absoluteWidth="97dp"
+                    tools:layout_conversion_absoluteHeight="16dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edAddLibrary"
+                    tools:layout_conversion_absoluteX="181dp"
+                    tools:layout_conversion_absoluteY="940dp"
+                    tools:layout_conversion_absoluteWidth="20dp"
+                    tools:layout_conversion_absoluteHeight="42dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shelves_to_add"
+                    tools:layout_conversion_absoluteX="86dp"
+                    tools:layout_conversion_absoluteY="982dp"
+                    tools:layout_conversion_absoluteWidth="210dp"
+                    tools:layout_conversion_absoluteHeight="16dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edAddShelves"
+                    android:inputType="number"
+                    tools:layout_conversion_absoluteX="181dp"
+                    tools:layout_conversion_absoluteY="999dp"
+                    tools:layout_conversion_absoluteWidth="20dp"
+                    tools:layout_conversion_absoluteHeight="42dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnAddLibrary"
+                    android:text="@string/add_library"
+                    tools:layout_conversion_absoluteX="137dp"
+                    tools:layout_conversion_absoluteY="1041dp"
+                    tools:layout_conversion_absoluteWidth="110dp"
+                    tools:layout_conversion_absoluteHeight="48dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textSize="14sp"
+                tools:layout_conversion_absoluteX="171dp"
+                tools:layout_conversion_absoluteY="1097dp"
+                tools:layout_conversion_absoluteWidth="40dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spStatus"
+                tools:layout_conversion_absoluteX="0dp"
+                tools:layout_conversion_absoluteY="1114dp"
+                tools:layout_conversion_absoluteWidth="384dp"
+                tools:layout_conversion_absoluteHeight="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/note"
+                tools:layout_conversion_absoluteX="192dp"
+                tools:layout_conversion_absoluteY="1146dp"
+                tools:layout_conversion_absoluteWidth="0dp"
+                tools:layout_conversion_absoluteHeight="16dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editNote"
+                tools:layout_conversion_absoluteX="181dp"
+                tools:layout_conversion_absoluteY="999dp"
+                tools:layout_conversion_absoluteWidth="20dp"
+                tools:layout_conversion_absoluteHeight="42dp" />
+
+            <CheckBox
+                android:text="@string/add_a_copy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbAddACopy" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAddBook"
+                android:text="@string/modify_book"
+                tools:layout_conversion_absoluteX="146dp"
+                tools:layout_conversion_absoluteY="1162dp"
+                tools:layout_conversion_absoluteWidth="91dp"
+                tools:layout_conversion_absoluteHeight="48dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

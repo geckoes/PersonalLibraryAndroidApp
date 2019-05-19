@@ -1,0 +1,116 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.taiuti.personallibrary.LibrariesFragment">
+
+    <Spinner
+        android:id="@+id/spLibrary"
+        android:layout_width="333dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvLibrary">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvLibrary"
+        android:text="@string/library"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="333dp"
+        android:layout_height="33dp"
+        android:id="@+id/txtNoBooks"
+        android:text="@string/no_books_found_in_library"
+        android:layout_below="@+id/spLibrary"
+        android:layout_alignParentStart="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spLibrary"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/ll_ads"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_ads"
+        android:layout_width="352dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/bookListView"
+        android:stackFromBottom="true"
+        android:divider="@android:color/transparent"
+        android:transcriptMode="alwaysScroll"
+        tools:listitem="@layout/item_book"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spLibrary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtNoBooks"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/ll_ads"
+        android:layout_marginBottom="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

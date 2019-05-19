@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_library"
+            tools:layout_conversion_absoluteX="143dp"
+            tools:layout_conversion_absoluteY="923dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            tools:layout_conversion_absoluteHeight="16dp" />
+
+        <EditText
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edAddLibrary"
+            tools:layout_conversion_absoluteX="181dp"
+            tools:layout_conversion_absoluteY="940dp"
+            tools:layout_conversion_absoluteWidth="20dp"
+            tools:layout_conversion_absoluteHeight="42dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shelves_to_add"
+            tools:layout_conversion_absoluteX="86dp"
+            tools:layout_conversion_absoluteY="982dp"
+            tools:layout_conversion_absoluteWidth="210dp"
+            tools:layout_conversion_absoluteHeight="16dp" />
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edAddShelves"
+            android:inputType="number"
+            tools:layout_conversion_absoluteX="181dp"
+            tools:layout_conversion_absoluteY="999dp"
+            tools:layout_conversion_absoluteWidth="20dp"
+            tools:layout_conversion_absoluteHeight="42dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddLibrary"
+            android:text="@string/add_library"
+            tools:layout_conversion_absoluteX="137dp"
+            tools:layout_conversion_absoluteY="1041dp"
+            tools:layout_conversion_absoluteWidth="110dp"
+            tools:layout_conversion_absoluteHeight="48dp" />
+
+</LinearLayout>
