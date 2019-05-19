@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Personal Library</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="manage_books">Manage Books</string>
+    <string name="search_online">Search books on line</string>
+
+    <!-- status list -->
+    <string-array name="status">
+        <item>Select a status …</item>
+        <item>on shelf</item>
+        <item>in use</item>
+    </string-array>
+
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_book_found">No book found</string>
+    <string name="select_status">Select a status</string>
+    <string name="select_shelf">Select a shelf</string>
+    <string name="publisher">Published By</string>
+    <string name="delete_book">Delete book</string>
+    <string name="add_library">Add Library</string>
+    <string name="modify_book">Modify book</string>
+    <string name="add_book">Add book</string>
+    <string name="library">Library</string>
+    <string name="insert_library">Insert a library</string>
+    <string name="shelves_to_add">Shelves to add to the library</string>
+    <string name="status">Status</string>
+    <string name="add_a_copy">Do you want insert a copy of this book?</string>
+    <string name="authors">Authors</string>
+    <string name="categories">Categories</string>
+    <string name="language">Language</string>
+    <string name="isbn10">Isbn10</string>
+    <string name="isbn13">Isbn13</string>
+    <string name="published_date">Published Date</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="no_books_found_in_library">No books found in library</string>
+    <string name="search">Search</string>
+    <string name="shelves_added">Shelves added to the library</string>
+    <string name="book_in_library">Book has already present in library. Do you want insert a copy of this?</string>
+    <string name="insert_a_title">Insert a title of the book</string>
+    <string name="book_deleted">The book has been deleted</string>
+    <string name="ask_delete_book">Are you sure to delete this book?</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="facebook_app_id">498799527185114</string>
+    <string name="fb_login_protocol_scheme">fb498799527185114</string>
+</resources>

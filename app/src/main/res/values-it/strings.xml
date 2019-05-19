@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Personal Library</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Main Activity -->
+    <string name="manage_books">Gestisci libri</string>
+    <string name="search_online">Cerca libri on line</string>
+
+    <!-- status list -->
+    <string-array name="status">
+        <item>Seleziona uno stato …</item>
+        <item>sullo scaffale</item>
+        <item>in uso</item>
+    </string-array>
+
+    <string name="ok">Ok</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="no_book_found">Nessun libro trovato</string>
+    <string name="select_status">Seleziona uno stato</string>
+    <string name="select_shelf">Seleziona uno scaffale</string>
+    <string name="publisher">Pubblicato da</string>
+    <string name="delete_book">Cancella libro</string>
+    <string name="add_library">Aggiungi libreria</string>
+    <string name="modify_book">Modifica libro</string>
+    <string name="add_book">Aggiungi libro</string>
+    <string name="library">Libreria</string>
+    <string name="insert_library">Inserisci una libreria</string>
+    <string name="shelves_to_add">Scaffali da aggiungere alla libreria</string>
+    <string name="status">Status</string>
+    <string name="add_a_copy">Vuoi inserire una copia del libro?</string>
+    <string name="authors">Autori</string>
+    <string name="categories">Categorie</string>
+    <string name="language">Lingua</string>
+    <string name="isbn10">Isbn10</string>
+    <string name="isbn13">Isbn13</string>
+    <string name="published_date">Data pubblicazione</string>
+    <string name="title">Titolo</string>
+    <string name="note">Note</string>
+    <string name="no_books_found_in_library">Nessun libro trovato in libreria</string>
+    <string name="search">Cerca</string>
+    <string name="shelves_added">Scaffali aggiunti alla libreria</string>
+
+    <string name="book_in_library">Il libro è già presente nella libreria. Vuoi inserire una copia del libro?</string>
+    <string name="insert_a_title">Inserisci un titolo del libro</string>
+    <string name="book_deleted">Il libro è stato cancellato</string>
+    <string name="ask_delete_book">Sei sicuro di voler cancellare il libro?</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="facebook_app_id">498799527185114</string>
+    <string name="fb_login_protocol_scheme">fb498799527185114</string>
+
+</resources>
