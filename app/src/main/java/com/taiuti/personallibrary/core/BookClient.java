@@ -11,7 +11,7 @@ import java.net.URLEncoder;
  */
 
 public class BookClient {
-    private static final String API_BASE_OPEN_LIBRARY_URL = "http://openlibrary.org/";
+    private static final String API_BASE_OPEN_LIBRARY_URL = "https://openlibrary.org/";
     private static final String API_BASE_GOOGLE_URL = "https://www.googleapis.com/books/v1/";
     private AsyncHttpClient client;
 
